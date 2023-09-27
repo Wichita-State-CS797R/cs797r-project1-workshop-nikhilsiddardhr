@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "F4B1AdsF8aYzEihWF5MrS9bdsciM1rX0dEVKkwtqdMA7ClhqwCn0iDLpzPcA4DOvzK4/qu3sFa9hsquYGUGq9g==",
+  "dgSpecHash": "G0zPqfvxqBtTvxackOTi89Nz+oS5BcciCQoUmn4f0m9P2lTA8/QWIiQq8Un5l59yNou5Ex3Cn7LcWhmMGMjtLw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Krishna vamsi\\Desktop\\MAUICourse\\MonkeyFinderProject\\MonkeyFinder\\MonkeyFinder.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Krishna vamsi\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
     "C:\\Users\\Krishna vamsi\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\Krishna vamsi\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Krishna vamsi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
