@@ -31,13 +31,16 @@
             WidthRequest="160"/>
             </Border>
 
-            <Label Style="{StaticResource LargeLabel}" 
-        Grid.Row="1"
-        TextColor="White"
-        FontAttributes="Bold"
-        Text="{Binding Monkey.Name}" 
-        HorizontalOptions="Center"
-        Margin="0,0,0,8"/>
+
+
+
+            <Button Text="Show on Map" Grid.Row="1" 
+        Command="{Binding OpenMapCommand}"
+        HorizontalOptions="Center" 
+        WidthRequest="200" 
+        Margin="8"
+        Style="{StaticResource ButtonOutline}"/>
+
             <VerticalStackLayout Grid.Row="2" Padding="10" Spacing="10">
                 <Label Style="{StaticResource MediumLabel}" Text="{Binding Monkey.Details}" />
                 <Label Style="{StaticResource SmallLabel}" Text="{Binding Monkey.Location, StringFormat='Location: {0}'}" />
