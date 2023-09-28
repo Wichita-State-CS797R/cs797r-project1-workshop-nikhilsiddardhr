@@ -4,6 +4,8 @@ public partial class MonkeysViewModel : BaseViewModel
 {
     public ObservableCollection<Monkey> Monkeys { get; } = new();
     MonkeyService monkeyService;
+    [ObservableProperty]
+    bool isRefreshing;
 
     IConnectivity connectivity;
     IGeolocation geolocation;
@@ -21,8 +23,7 @@ public partial class MonkeysViewModel : BaseViewModel
             return;
 
         try
-        {
-            // Get cached location, else get real location.
+        { 
             var location = await geolocation.GetLastKnownLocationAsync();
             if (location == null)
             {
@@ -91,6 +92,7 @@ public partial class MonkeysViewModel : BaseViewModel
         finally
         {
             IsBusy = false;
+            IsRefreshing = false;
         }
 
     }
